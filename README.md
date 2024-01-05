@@ -25,13 +25,14 @@ config laravel .env for database requirment
   php artisan db:seed
 ````
 build the node models or run npm
+```bash
 //you can pass this section
   npm run dev
   php artisan serve
 ````
 Then rup app on php served domain.
 
-there are Auto saveing and updating.
+###there are Auto saveing and updating.
 
 
 
