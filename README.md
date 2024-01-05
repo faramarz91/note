@@ -16,7 +16,7 @@ first deploy Project to your computer
   composer Install
   npm Install
 ```
-config laravel .env for database requirmen
+config laravel .env for database requirment
 
 ```bash
   php artisan migrate
@@ -24,6 +24,12 @@ config laravel .env for database requirmen
 //you can pass this section
   php artisan db:seed
 ````
+build the node models or run npm
+//you can pass this section
+  npm run dev
+  php artisan serve
+````
+Then rup app on php served domain.
 
 there are Auto saveing and updating.
 
